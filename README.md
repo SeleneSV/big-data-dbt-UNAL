@@ -86,3 +86,14 @@ Para ejecutar ejecute el script principal desde la raíz del proyecto:
 ```bash
 bash apolo_11.sh
 ```
+
+
+## Notas Adicionales y Configuración Crítica
+
+### Configuración de la Conexión de `dbt`
+
+Para que `dbt` pueda interactuar con la base de datos DuckDB (`database/unal.db`), es fundamental configurar correctamente el perfil de conexión.
+
+Esta configuración se realiza en el archivo `profiles.yml`. Este archivo le indica a `dbt` la ruta al archivo de la base de datos.
+
+Para obtener una guía detallada y paso a paso sobre cómo crear y configurar este archivo para que apunte correctamente a la base de datos de este proyecto, consulte el documento de referencia: `__TRABAJO FINAL #4__`.
