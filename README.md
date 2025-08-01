@@ -1,12 +1,12 @@
 # **Documentación Técnica: Sistema de Reportes de Misión Apolo-11**
 
-El sistema **Apolo-11** es una plataforma de procesamiento de datos diseñada para simular, ingestar, transformar y analizar logs de misiones espaciales. Construido sobre la robustez de **Linux** y **Bash**, el sistema integra un moderno stack de datos con **Python**, **DuckDB** y **dbt** para ofrecer una solución de análisis de datos completa, automatizada y escalable.
+El sistema **Apolo-11** es una plataforma de procesamiento de datos diseñada para simular, ingestar, transformar y analizar logs de misiones espaciales. Construido sobre **Linux** y **Bash**, el sistema integra  **Python**, **DuckDB** y **dbt** para ofrecer una solución de análisis de datos completa, automatizada y escalable.
 
-El objetivo principal es procesar logs generados en tiempo de ejecución, consolidarlos, cargarlos en una base de datos analítica (Data Warehouse) y transformarlos en reportes de alto valor para el control de la misión.
+El objetivo principal es procesar logs generados en tiempo de ejecución, consolidarlos, cargarlos en una base de datos analítica y transformarlos en reportes para el control de la misión.
 
 ## Arquitectura y Flujo de Trabajo
 
-El sistema sigue un flujo de trabajo orquestado que combina scripting tradicional con herramientas modernas de ingeniería de datos, siguiendo el patrón de la **Arquitectura Medallion**.
+El sistema sigue un flujo  orquestado que combina scripting con herramientas de ingeniería de datos, siguiendo el patrón de la **Arquitectura Medallion**.
 
 
 ## Componentes del Sistema
