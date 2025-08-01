@@ -1,0 +1,45 @@
+[0m22:45:18.510453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f29abd551f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f29ad2f6ae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f29abd550a0>]}
+
+
+============================== 22:45:18.512860 | b7cc4fbd-4cb3-40e9-b0fb-4a892c9b3195 ==============================
+[0m22:45:18.512860 [info ] [MainThread]: Running with dbt=1.10.6
+[0m22:45:18.513333 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/selene/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init nasa', 'send_anonymous_usage_stats': 'True'}
+[0m22:45:18.519503 [debug] [MainThread]: Starter project path: /home/selene/big-data-dbt-UNAL/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m22:45:18.523058 [info ] [MainThread]: 
+Your new dbt project "nasa" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:45:18.523679 [info ] [MainThread]: Setting up your profile.
+[0m22:47:02.947097 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 104.47642, "process_in_blocks": "16", "process_kernel_time": 0.110532, "process_mem_max_rss": "100116", "process_out_blocks": "64", "process_user_time": 1.125425}
+[0m22:47:02.949155 [debug] [MainThread]: Command `dbt init` succeeded at 22:47:02.948842 after 104.48 seconds
+[0m22:47:02.950338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f29aded0dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f29ab544f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f29abd55130>]}
+[0m22:47:02.951271 [debug] [MainThread]: Flushing usage events
+[0m22:47:03.413209 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:13:36.071730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8276c96bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8276a70f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8276d1e570>]}
+
+
+============================== 23:13:36.076206 | 7e26d1e3-b416-4054-a45f-41e118e57a1d ==============================
+[0m23:13:36.076206 [info ] [MainThread]: Running with dbt=1.10.6
+[0m23:13:36.077066 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/selene/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:13:36.077768 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/selene/big-data-dbt-UNAL/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:13:36.078998 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06656745, "process_in_blocks": "0", "process_kernel_time": 0.129956, "process_mem_max_rss": "99716", "process_out_blocks": "16", "process_user_time": 1.159614}
+[0m23:13:36.079492 [debug] [MainThread]: Command `dbt run` failed at 23:13:36.079400 after 0.07 seconds
+[0m23:13:36.080180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8276376450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8275de3a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82763a2570>]}
+[0m23:13:36.080833 [debug] [MainThread]: Flushing usage events
+[0m23:13:36.636237 [debug] [MainThread]: An error was encountered while trying to flush usage events

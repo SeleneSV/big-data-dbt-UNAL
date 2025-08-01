@@ -1,0 +1,5 @@
+duckdb
+dbt-core
+dbt-duckdb
+csvkit
+pandas
